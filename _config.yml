@@ -31,3 +31,8 @@ github:
 gems: [jekyll-paginate, jekyll-gist]
 paginate:            1
 paginate_path: "page:num"
+
+pages_list:
+  Archive: '/archive'
+  Twitter: 'https://twitter.com/tedlee'
+  Feed: '/atom.xml'
