@@ -1,0 +1,33 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Ted Lee
+tagline:             Blog
+url:                 http://tedlee.me
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Ted Lee
+  url:               https://twitter.com/tedlee
+  email:             ted@tedlee.me
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
+
+gems: [jekyll-paginate, jekyll-gist]
+paginate:            1
+paginate_path: "page:num"
